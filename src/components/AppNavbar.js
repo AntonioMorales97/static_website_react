@@ -28,7 +28,7 @@ class AppNavbar extends Component {
         <Navbar color='dark' dark expand='sm' className='mb-3 fixed-top'>
           <Container>
             <NavbarBrand href='/'>
-              <h4>FJ Service Företag</h4>
+              <h4>Some Name</h4>
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>

@@ -20,7 +20,7 @@ export class Footer extends Component {
             <div className='row'>
               <div className='col text-center'>
                 <div className='py-4'>
-                  <h1 className='h3'>FJ Service Företag</h1>
+                  <h1 className='h3'>Some Name</h1>
                   <p>Copyright &copy; 2019</p>
                   <Button onClick={this.toggle}>Contact Us</Button>
                 </div>
