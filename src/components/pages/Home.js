@@ -57,7 +57,7 @@ export class Home extends Component {
                     Fugiat dolor laudantium fugit tempora eveniet voluptatum qui
                     a! Maxime, reiciendis voluptates?
                   </p>
-                  <a href='#' className='btn btn-outline-secondary'>
+                  <a href='#home-section' className='btn btn-outline-secondary'>
                     Learn More
                   </a>
                 </div>
