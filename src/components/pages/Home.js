@@ -7,44 +7,42 @@ export class Home extends Component {
       <React.Fragment>
         <header id='home-section'>
           <div className='dark-overlay' />
-          <div className='home-inner'>
-            <Container>
-              <div className='row'>
-                <div className='col-lg-12 d-block'>
-                  <h1 className='d-none d-sm-block display-4 '>
-                    Lorem ipsum dolor sit amet consectetur.
-                  </h1>
-                  <div className='d-flex flex-row'>
-                    <div className='p-4 align-self-start'>
-                      <i className='fa fa-check' />
-                    </div>
-                    <div className='p-4 align-self-end'>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, quis maxime. Similique quibusdam ipsam dolore!
-                    </div>
+          <Container className='home-inner'>
+            <div className='row'>
+              <div className='col-lg-12 d-block'>
+                <h1 className='d-none d-sm-block display-4 '>
+                  Lorem ipsum dolor sit amet consectetur.
+                </h1>
+                <div className='d-flex flex-row'>
+                  <div className='p-4 align-self-start'>
+                    <i className='fa fa-check' />
                   </div>
-                  <div className='d-flex flex-row'>
-                    <div className='p-4 align-self-start'>
-                      <i className='fa fa-check' />
-                    </div>
-                    <div className='p-4 align-self-end'>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, quis maxime. Similique quibusdam ipsam dolore!
-                    </div>
+                  <div className='p-4 align-self-end'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptates, quis maxime. Similique quibusdam ipsam dolore!
                   </div>
-                  <div className='d-flex flex-row'>
-                    <div className='p-4 align-self-start'>
-                      <i className='fa fa-check' />
-                    </div>
-                    <div className='p-4 align-self-end'>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, quis maxime. Similique quibusdam ipsam dolore!
-                    </div>
+                </div>
+                <div className='d-flex flex-row'>
+                  <div className='p-4 align-self-start'>
+                    <i className='fa fa-check' />
+                  </div>
+                  <div className='p-4 align-self-end'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptates, quis maxime. Similique quibusdam ipsam dolore!
+                  </div>
+                </div>
+                <div className='d-flex flex-row'>
+                  <div className='p-4 align-self-start'>
+                    <i className='fa fa-check' />
+                  </div>
+                  <div className='p-4 align-self-end'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptates, quis maxime. Similique quibusdam ipsam dolore!
                   </div>
                 </div>
               </div>
-            </Container>
-          </div>
+            </div>
+          </Container>
         </header>
         <section id='explore-head-section'>
           <Container>

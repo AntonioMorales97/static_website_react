@@ -1,13 +1,16 @@
 $bg-color: #ececec;
 $font-color: #19181a;
+$success-color: #5cdb95;
 $primary-color: #f79e02;
 $dark-overlay: rgba(0, 0, 0, 0.7);
+$white-overlay: rgba(255, 255, 255, 0.603);
+$light-dark-overlay: rgba(53, 53, 53, 0.301);
 $icon-size: 30px;
 $background-opacity: 0.6;
 
 // Set Text Color
 @function set-text-color($color) {
-  @if (lightness($color) > 40) {
+  @if (lightness($color) > 30) {
     @return #000;
   } @else {
     @return #fff;
