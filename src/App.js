@@ -5,6 +5,9 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Footer from './components/Footer';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './scss/App.scss';
+
 class App extends Component {
   render() {
     return (
